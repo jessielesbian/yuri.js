@@ -1,0 +1,12 @@
+{
+  "name": "yuri.js",
+  "version": "0.0.0",
+  "description": "yuri.js",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "ws": "^8.12.0"
+  }
+}
