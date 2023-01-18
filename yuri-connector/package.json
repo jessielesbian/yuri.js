@@ -1,0 +1,12 @@
+{
+  "name": "yuri-connector",
+  "version": "0.0.2",
+  "description": "The Node.JS connector for LesbianDB v2.1",
+  "main": "index.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "ws": "^8.12.0"
+  }
+}

@@ -58,7 +58,7 @@
 			const loopExitMode = await new Promise(function (resolve) {
 				wsclient.onerror = function (err) {
 					resolve(false);
-					for (const [key, value] of Object.entries(dict)) {
+					for (const value of Object.values(dict)) {
 						value.reject(err);
 					}
 				};

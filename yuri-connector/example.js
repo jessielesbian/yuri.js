@@ -1,8 +1,8 @@
 'use strict';
 
-const whatever = require("./index.js");
+const connect = require("yuri-connector");
 (async function () {
-	const connection = whatever("ws://localhost:12345");
+	const connection = connect("ws://localhost:12345");
 	while (true) {
 		//initial read
 		const read = (await connection.execute(["counter"], {}, {}))["counter"];
